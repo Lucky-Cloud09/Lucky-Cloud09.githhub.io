@@ -34,9 +34,6 @@ menu:
     回到首页:
         - /
         - icon-home
-    回到首页:
-        - /
-        - icon-home
 
 widgets:
     - name: search
@@ -55,7 +52,6 @@ widgets:
                 - icon-QQ
                 - rgb(249, 174, 8)
                 - rgba(249, 174, 8, .1)
-            
     - name: category
       enable: true
     - name: tagcloud
@@ -79,7 +75,7 @@ widgets:
       enable: true
     - name: link #settings: widgetLink
       enable: true
-      optixons: 
+      options: 
         widgetLink: #链接组件
             - title: 折影轻梦
               img: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png

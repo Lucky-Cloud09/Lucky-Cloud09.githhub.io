@@ -5,11 +5,11 @@
 # Site
 title: Lucky Cloud's blog
 subtitle: ''
-description: 'Lucky Cloud's blog'
+description: Lucky Cloud's blog
 keywords:
 author: Lucky_Cloud
 language: zh-CN
-timezone: 'Aisa/Shanghai'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -109,3 +109,13 @@ theme: nexmoe
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap-template.xml
+  rel: false
+  tags: true
+  categories: true
+  createIssueManually: true
