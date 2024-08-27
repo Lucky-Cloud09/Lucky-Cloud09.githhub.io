@@ -1,7 +1,7 @@
 avatar: https://lucky-cloud09.github.io/img/712506.png # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
     enable: false
-    path: 
+    path: https://lucky-cloud09.github.io/img/bj.jpg
     width: 1280
     height: 726
 favicon:
@@ -44,10 +44,10 @@ widgets:
             url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
             id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
     - name: social
-      enable: true
+      enable: false
       options: 
         social:
-            QQ群:
+            我的 QQ:
                 - https://jq.qq.com/?_wv=1027&k=5CfKHun
                 - icon-QQ
                 - rgb(249, 174, 8)
@@ -59,7 +59,7 @@ widgets:
       options: 
         maxTagcloud: 17  # 标签云组件显示的标签数量，0 表示不限制
     - name: hitokoto # 一言 widget
-      enable: false
+      enable: true
       options: 
         widgetHitokoto: # 一言组件
             loading_placeholder: '🚀 获取中...' # 正在一言时的占位符
