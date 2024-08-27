@@ -1,6 +1,6 @@
 ---
 title: 题解：AT_arc174_a [ARC174A] A Multiply
-cover: https://lucky-cloud09.github.io/img/
+cover: https://lucky-cloud09.github.io/img/b1.jpg
 categories: 题解
 ---
 

@@ -2,7 +2,7 @@
 title: 2023 10月杂题记
 categories: 杂题
 date: 2023/10/02
-cover: https://lucky-cloud09.github.io/img/b3.jpg
+cover: https://lucky-cloud09.github.io/img/b3.png
 ---
 
 
