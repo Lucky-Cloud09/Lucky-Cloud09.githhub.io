@@ -1,6 +1,6 @@
 ---
 title: 2024 3月杂题记
-cover: https://lucky-cloud09.github.io/img/b7.png
+cover: https://lucky-cloud09.github.io/img/b7.jpg
 categories: 杂题
 ---
 

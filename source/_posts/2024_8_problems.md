@@ -1,6 +1,6 @@
 ---
 title: 2024 8月杂题记
-cover: https://lucky-cloud09.github.io/img/b5.png
+cover: https://lucky-cloud09.github.io/img/b5.jpg
 categories: 杂题
 ---
 

@@ -16,7 +16,7 @@ categories: 题解
 
 ## Code
 
-为了实现以上操作，我们采用 ```multiset``` 实现。
+为了实现以上操作，我们采用 `multiset` 实现。
 
 ```cpp
 #include <bits/stdc++.h>

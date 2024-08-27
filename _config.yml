@@ -53,7 +53,7 @@ index_generator:
   order_by: -date
 syntax_highlighter: shiki
 shiki:
-  theme: solarized-light
+  theme: dark-plus
   line_number: true
 highlight:
   enable: false

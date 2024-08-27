@@ -1,6 +1,6 @@
 ---
 title: AT_abc310_d
-cover: https://lucky-cloud09.github.io/img/b6.png
+cover: https://lucky-cloud09.github.io/img/b6.jpg
 categories: 题解
 ---
 
@@ -16,7 +16,7 @@ categories: 题解
 
 但其实，这题的难点是在判重，我们可以用状压~~应该是吧~~去做。也就是每一个人加入的小组转为一个整数。但是，一定要注意，要边建小组边考虑加入目前建了那些组。
 
-因为状态会爆数组所以用 ```map``` 标记即可。
+因为状态会爆数组所以用 `map` 标记即可。
 
 
 
