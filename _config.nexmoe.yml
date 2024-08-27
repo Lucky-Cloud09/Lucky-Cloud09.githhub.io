@@ -1,4 +1,4 @@
-avatar:  # 网站 Logo
+avatar: https://lucky-cloud09.github.io/img/favicon.ico # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
     enable: false
     path: 
