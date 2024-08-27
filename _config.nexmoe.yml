@@ -73,13 +73,6 @@ widgets:
             show_count: true  #是否展示数量
     - name: recent_posts
       enable: true
-    - name: link #settings: widgetLink
-      enable: flase
-      options: 
-        widgetLink: #链接组件
-            - title: 折影轻梦
-              img: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
-              link : https://nexmoe.com/
 
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
