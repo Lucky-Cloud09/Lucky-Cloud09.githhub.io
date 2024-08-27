@@ -24,6 +24,7 @@ jobs:
           npx hexo clean
           npx hexo generate
           node auto-generate-issue.js ${{ secrets.GITHUB_TOKEN }}
+          mv img public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with: 
