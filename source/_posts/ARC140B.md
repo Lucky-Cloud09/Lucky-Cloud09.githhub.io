@@ -1,5 +1,5 @@
 ---
-title: [ARC140B] Shorten ARC  题解
+title: ARC140B 题解
 cover: https://lucky-cloud09.github.io/img/b2.jpg
 categories: 题解
 ---
