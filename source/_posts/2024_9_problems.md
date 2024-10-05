@@ -51,3 +51,12 @@ date: 2024/9/6
 
 这样就很好写 DP 了。
 
+## [Empty Rectangles](https://www.luogu.com.cn/problem/CF364E)
+
+> 题目大意：你有一个n*m的01矩阵，现在询问在这其中有多少个子矩阵满足包含k个1，即和为k。
+
+很妙的分治。
+
+对于每一次，我们选分治横或列。
+
+对于分治行，我们设当前矩形为 $a,b,c,d$，则 $mid$ 为 $\lfloor \frac{a+c}{2} \rfloor$。
