@@ -154,8 +154,6 @@ $i$ 要连向 $t$，容量为 $r_i$。
 
 ### [Drazil and Morning Exercise](https://www.luogu.com.cn/problem/CF516D)
 
-# Drazil and Morning Exercise
-
 > 题目大意：
 > - 给定一棵 $n$ 个点的树，边有边权。
 > - 定义 $f_x = \max_{i=1}^n \text{dist}(x,i)$。
