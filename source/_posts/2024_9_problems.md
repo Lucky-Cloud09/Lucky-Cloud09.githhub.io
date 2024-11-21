@@ -1,7 +1,7 @@
 ---
 title: 2024 9月杂题记
 cover: https://lucky-cloud09.github.io/img/b1.jpg
-categories: 题解
+categories: 杂题
 date: 2024/9/6
 ---
 
@@ -248,4 +248,25 @@ $$ans = (\sum a_i) \times (\begin{Bmatrix} n \\ k \end{Bmatrix} + (n-1) \times \
 
 $\{ \}$ 表示第二类斯特林数。
 
-##
+## 尽梨了
+
+> 题目大意：$n$ 个商店。从一个商店到另一个商店或开始时均要花 $1$ 时间。在一个商店买东西，花 $a_i \times t + b_i$ 时间。$t$ 是之前花的时间。问 $T$ 时间最多买多少个。
+
+我们先考虑贪心。
+
+我们先进 $i$ 商店，后进 $j$ 商店，与先进 $j$ 的花费时间进行对比。
+
+可以列出不等式。
+
+$$(t\times a_i + b_i + 1 + t) \times a_j + b_j + t + 1+t\times a_i + b_i < (t\times a_j + b_j + 1 + t) \times a_i + b_i + t + 1+t\times a_j + b_j$$
+
+$$(a_i+1) \times a_j < (a_j +1) \times a_i$$
+
+那么我们考虑 DP。
+
+我们要花费最少的时间，就一定是排完序的子序列。设 $dp_{i,j}$ 表示前 $i$ 个商店去 $j$ 个花的最少时间。
+
+然后因为对于 $a_i > 0$ 的情况，至多去 $\log T$ 个，所以就可以 $n \log T$ DP。
+
+对于 $a_i = 0$，他一定在序列末尾，利用双指针就可以做了。
+
